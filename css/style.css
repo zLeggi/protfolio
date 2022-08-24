@@ -48,6 +48,11 @@ nav ul li {
   list-style: none;
 }
 
+nav ul li a:hover{
+  color: #b629f8;
+  transition:.8s ;
+}
+
 /* -----------intro----------- */
 
 #pergunta-inicial {
@@ -94,6 +99,16 @@ nav ul li {
   height: 60px;
   margin: 20px;
 }
+
+#redes-sociais .linkedin-icon:hover{
+  box-shadow: 1px 1px #b629f8;
+  border-radius: 5px;
+}
+#redes-sociais .github-icon:hover{
+  box-shadow: 1px 1px #b629f8;
+}
+
+
 
 #wrapper-apresentacao p,
 h3,
@@ -418,8 +433,8 @@ footer div {
 }
 #contato-footer img {
   border-radius: 10px;
-  width: 30px;
-  margin: 20px;
+  width: 40px;
+  margin: 10px;
 }
 
 #contato-footer a {
@@ -431,6 +446,12 @@ footer div {
 
 footer li a {
   text-decoration: none;
+}
+
+footer section a:hover {
+  box-sizing: border-box;
+  box-shadow: 0 0 5px #b629f8;
+  border-radius: 10px;
 }
 
 footer small {
