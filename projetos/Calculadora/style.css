@@ -3,8 +3,10 @@
   padding: 0;
 }
 
+
 .fundo {
   background-image:  linear-gradient(45deg, #B629F8 0%, #800ADD 100%);
+  width: 100vw;
   height: 100vh;
   color: #F3E8F8;
 
@@ -17,16 +19,13 @@
 }
 
 .calculadora {
-  position: absolute;
+  width: fit-content;
   background-color: #28003A;
   opacity: .8;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   border-radius: 20px;
   padding: 20px;
-  
-}
+  margin: auto;
+} 
 
 #resultado {
   font-size: 24px;
