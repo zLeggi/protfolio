@@ -48,9 +48,9 @@ nav ul li {
   list-style: none;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
   color: #b629f8;
-  transition:.8s ;
+  transition: 0.8s;
 }
 
 /* -----------intro----------- */
@@ -100,15 +100,13 @@ nav ul li a:hover{
   margin: 20px;
 }
 
-#redes-sociais .linkedin-icon:hover{
+#redes-sociais .linkedin-icon:hover {
   box-shadow: 1px 1px #b629f8;
   border-radius: 5px;
 }
-#redes-sociais .github-icon:hover{
+#redes-sociais .github-icon:hover {
   box-shadow: 1px 1px #b629f8;
 }
-
-
 
 #wrapper-apresentacao p,
 h3,
@@ -143,7 +141,7 @@ h1 {
   align-items: center;
 }
 
-.texto-base-secao-black {
+.texto-base-sessao-black {
   font-family: "Fira Sans";
   font-style: normal;
   font-weight: 600;
@@ -157,7 +155,7 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-#secao-sobre {
+#sessao-sobre {
   width: 614px;
   background-color: #080808;
   border-radius: 5px;
@@ -190,7 +188,7 @@ h1 {
   padding: 120px 0;
 }
 
-.texto-base-secao-white {
+.texto-base-sessao-white {
   font-family: "Fira Sans";
   font-style: normal;
   font-weight: 600;
@@ -206,6 +204,10 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.p--mobile {
+  display: none;
 }
 
 #sessao-projetos,
@@ -461,3 +463,227 @@ footer small {
 }
 
 
+@media (max-width: 1280px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+  }
+
+  header {
+    width: 100%;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav ul {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  nav ul li {
+    margin: 0;
+    padding: 0 20px;
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 17px;
+  }
+
+  header img {
+    display: none;
+  }
+
+  section#intro {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-bottom: 20px;
+
+    display: flex;
+  }
+
+  #pergunta-inicial {
+    width: 80%;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    margin: 30px 0 20px 0;
+  }
+
+  #flex-apresentacao {
+    font-size: 22px;
+    display: flex;
+    text-align: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    display: flex;
+    color: white;
+  }
+
+  #wrapper-apresentacao {
+    font-size: 22px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    color: white;
+  }
+
+  #wrapper-apresentacao p {
+    font-size: 22px;
+  }
+
+  #wrapper-apresentacao h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+
+  #wrapper-apresentacao h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    line-height: 52px;
+  }
+
+  div#area-foto img {
+    width: 300px;
+    height: 300px;
+    margin: 0;
+  }
+
+  #sobre-mim,
+  #organizacao-projeto,
+  #organizacao-formacao,
+  footer section {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #sobre-mim p,
+  #sobre-projetos,
+  #sobre-formacao {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  #sessao-sobre,
+  #sessao-formacao {
+    width: 90%;
+    margin: 0;
+    padding: 10px;
+    align-items: center;
+  }
+
+  #sobre-mim p {
+    margin: 20px;
+  }
+
+  .p--desktop {
+    display: none;
+  }
+
+  #organizacao-projeto,
+  #organizacao-formacao {
+    padding: 40px 0;
+  }
+
+  #sessao-projetos {
+    margin: 0;
+    line-height: 38px;
+  }
+
+  .p--mobile {
+    display: flex;
+    font-size: 50%;
+    justify-content: center;
+  }
+
+  .projeto p {
+    text-align: center;
+  }
+
+  .titulo-projeto {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titulo-projeto p {
+    padding: 10px 0;
+  }
+
+  .titulo-projeto p:first-child {
+    font-size: 26px;
+  }
+
+  #formacao {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #formacao div {
+    width: 40%;
+  }
+
+  .curso {
+    padding: 10px;
+  }
+
+  .tipo-formacao img {
+    margin: 0;
+    padding: 0;
+  }
+
+  #sessao-formacao ul li {
+    font-size: 16px;
+    margin: 10px 20pxF;
+  }
+
+  .carga-horaria {
+    display: none;
+  }
+
+  footer section {
+    width: 80%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer div,
+  #contato-footer {
+    margin: 20px 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #contato-footer {
+    font-size: 80%;
+  }
+
+  #contato-footer img,
+  #contato-footer p {
+    padding: 0 0 20px 0;
+    margin: 0;
+  }
+}
